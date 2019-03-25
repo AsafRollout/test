@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5c8e7e6ccfc69b7a84f7d810
+type: experiment
+name: one more flag 22
+flag: oneMoreFlag22
+conditions:
+  - dependency:
+      flag: change2
+      value: 'true'
+    value: true
+value: false
