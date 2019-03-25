@@ -1,0 +1,7 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5c8f96f14b776017acacb1ae
+type: experiment
+name: 111112zaxbazqt
+description: '12341'
+flag: DemoApp.flagA
+value: false
