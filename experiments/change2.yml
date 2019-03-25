@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5c8e7e1ecfc69b7a84f7d7d6
+type: experiment
+name: change 2
+flag: change2
+conditions:
+  - property:
+      name: isBlaBla
+      operator: is-true
+    value: true
+value: false
