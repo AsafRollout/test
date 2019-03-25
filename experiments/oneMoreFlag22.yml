@@ -9,3 +9,6 @@ conditions:
       value: 'true'
     value: true
 value: false
+platforms:
+  - name: plat
+    value: false
