@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5c0401ffd84c22b9921a4f7e
+type: experiment
+name: flag test
+flag: flagTest
+value: true
