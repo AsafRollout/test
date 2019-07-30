@@ -4,6 +4,10 @@ type: experiment
 flag: change
 conditions:
   - property:
+      name: rox.app_release
+      operator: semver-eq
+      operand: '3'
+  - property:
       name: isBlaBla
       operator: is-true
     value: true
