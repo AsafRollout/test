@@ -4,6 +4,11 @@ type: experiment
 flag: change
 platforms:
   - name: Browser
+    conditions:
+      - property:
+          name: customProperty-double-1.2
+          operator: semver-lt
+          operand: '3'
     value: false
 conditions:
   - property:
