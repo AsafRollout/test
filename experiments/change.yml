@@ -2,6 +2,9 @@
 # URL: https://localhost.rollout.io:9000/ex/5c8e7df9cfc69b7a84f7d7b1
 type: experiment
 flag: change
+platforms:
+  - name: Browser
+    value: false
 conditions:
   - property:
       name: rox.app_release
